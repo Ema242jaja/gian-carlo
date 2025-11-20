@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emanuel Ojeda — Portfolio Completo y Pulido</title>
+  <meta name="description" content="Portfolio profesional de Emanuel Ojeda — Full Stack Developer. CV descargable, traductor, proyectos, timeline, certificaciones y utilidades integradas." />
+  <meta name="keywords" content="Emanuel Ojeda, Full Stack, Portfolio, JavaScript, Node.js, React, Vue, MySQL, MongoDB" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Emanuel Ojeda",
+    "jobTitle":"Full Stack Developer",
+    "description":"Full Stack Developer con experiencia en sistemas de gestión, trazabilidad y líneas de montaje.",
+    "url": "https://tu-site-ejemplo.com",
+    "address": { "@type":"PostalAddress","addressLocality":"Buenos Aires","addressCountry":"AR" }
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <div class="bg-shapes" aria-hidden="true">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+  </div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <div class="brand">
+        <div class="logo-mark" aria-hidden="true">EO</div>
+        <div class="brand-title">Emanuel Ojeda</div>
+      </div>
+
+      <ul class="nav" id="navList">
+        <li><a href="#home" data-en="Home" data-es="Inicio" class="active">Inicio</a></li>
+        <li><a href="#about" data-en="About" data-es="Sobre mí">Sobre mí</a></li>
+        <li><a href="#skills" data-en="Skills" data-es="Habilidades">Habilidades</a></li>
+        <li><a href="#projects" data-en="Projects" data-es="Proyectos">Proyectos</a></li>
+        <li><a href="#tools" data-en="Tools" data-es="Herramientas">Herramientas</a></li>
+        <li><a href="#contact" data-en="Contact" data-es="Contacto">Contacto</a></li>
+      </ul>
+
+      <div class="controls">
+        <button class="icon-btn" id="themeToggle" title="Toggle theme" aria-pressed="false">🌓</button>
+        <button class="icon-btn" id="menuToggle" aria-expanded="false" aria-controls="navList">☰</button>
+        <button class="icon-btn" id="langSwitch" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-card container">
+      <div class="hero-inner">
+        <span class="hero-label">Full Stack Developer • 3 Años de Experiencia</span>
+        <h1>Emanuel Ojeda</h1>
+        <h2>Transformando Ideas en Soluciones Digitales</h2>
+        <p class="lead">Me especializo en sistemas empresariales, trazabilidad industrial y control de líneas de montaje. Trabajo desde el diseño de base de datos hasta la experiencia de usuario, buscando siempre soluciones escalables, seguras y mantenibles.</p>
+
+        <div class="hero-cta">
+          <button class="btn btn-primary" id="contactBtn">Contactar</button>
+          <button class="btn btn-ghost" id="downloadCV">Descargar CV</button>
+          <button class="btn btn-ghost" id="printCV">Imprimir CV</button>
+        </div>
+
+        <p style="margin-top:18px;color:var(--muted)">Disponible para proyectos freelance y posiciones remotas. Buenos Aires, Argentina.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label">Sobre Mí</span>
+          <h2>Creando Excelencia Digital</h2>
+          <p class="muted">Más de 3 años construyendo soluciones empresariales. A continuación resumo mi enfoque, experiencias clave y lo que ofrezco.</p>
+        </div>
+
+        <div class="card about-text">
+          <p><strong>Enfoque:</strong> comprendo el problema antes de escribir una sola línea de código. Mi proceso incluye análisis de requerimientos, diseño de arquitectura, iteraciones con entregables y pruebas automatizadas.</p>
+          <p style="margin-top:8px"><strong>Qué ofrezco:</strong> arquitectura backend, APIs REST/GraphQL, integración de sistemas, optimización de bases de datos, diseño de paneles administrativos, soporte y mentoring.</p>
+          <p style="margin-top:8px"><strong>Herramientas habituales:</strong> Node.js, TypeScript, React, Vue, Python, MySQL, PostgreSQL, MongoDB, Docker, Git.</p>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px">
+          <div class="card">
+            <h4>Certificaciones</h4>
+            <ul style="color:var(--muted)">
+              <li>Curso avanzado de Node.js — 2023</li>
+              <li>Administración de bases de datos MySQL — 2022</li>
+              <li>Buenas prácticas de testing — 2024</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Testimonios</h4>
+            <div class="testimonials" id="testimonials">
+              <div class="testimonial">"Emanuel entregó la plataforma a tiempo y con excelente calidad. Gran comunicador." — Gerente Operaciones</div>
+              <div class="testimonial">"Resolutivo y proactivo, redujo el tiempo de producción un 23%." — Líder de Proyecto</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head"><span class="hero-label">Mis Habilidades</span><h2>Competencias Técnicas y Blandas</h2></div>
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Habilidades Técnicas</h3>
+            <div style="margin-top:14px">
+              <div style="display:flex;justify-content:space-between;align-items:center"><strong>JavaScript / TypeScript</strong><small>90%</small></div>
+              <div class="skill-bar"><div class="skill-fill" data-fill="90"></div></div>
+
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px"><strong>Backend (Node / Python)</strong><small>88%</small></div>
+              <div class="skill-bar"><div class="skill-fill" data-fill="88"></div></div>
+
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px"><strong>Bases de datos</strong><small>85%</small></div>
+              <div class="skill-bar"><div class="skill-fill" data-fill="85"></div></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Habilidades Blandas</h3>
+            <div style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+              <span class="tag">Liderazgo</span>
+              <span class="tag">Comunicación</span>
+              <span class="tag">Resolución de Problemas</span>
+              <span class="tag">Mentoría</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label">Portafolio</span>
+          <h2>Proyectos Destacados (tarjetas)</h2>
+          <p class="muted">Resumen detallado de soluciones que diseñé y desarrollé. Las tarjetas no usan imágenes — son descriptivas y enfocadas en funcionalidades y resultados.</p>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-bottom:12px;align-items:center">
+          <input id="projectSearch" placeholder="Buscar proyectos... (Ctrl+K)" style="flex:1;padding:10px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,0.02);color:var(--text)" />
+          <select id="projectFilter" style="padding:8px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text)">
+            <option value="">Filtrar por tecnología</option>
+            <option value="react">React</option>
+            <option value="vue">Vue</option>
+            <option value="node">Node.js</option>
+            <option value="ts">TypeScript</option>
+          </select>
+          <button id="exportJson" class="btn btn-ghost">Exportar JSON</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+
+        <div style="margin-top:18px" class="card">
+          <h4>Resumen de impacto</h4>
+          <p class="muted">Algunos resultados: reducción de tiempos de respuesta hasta 40%, consolidación de datos en un único dashboard, automatización de procesos manuales y mejoras en la trazabilidad de operaciones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="container">
+        <div class="section-head"><span class="hero-label">Herramientas</span><h2>Utilidades Integradas</h2></div>
+
+        <div style="display:grid;grid-template-columns:1fr 420px;gap:18px">
+          <div class="card">
+            <h3>Traductor Inglés ⇄ Español</h3>
+            <p class="muted">Traduce texto con LibreTranslate (por defecto). Si la API no responde, se abre Google Translate. Incluye lectura en voz alta y copia rápida.</p>
+
+            <div class="translator" style="margin-top:12px">
+              <div>
+                <textarea id="translateInput" placeholder="Escribe o pega texto aquí..."></textarea>
+                <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
+                  <select id="translateSource"><option value="auto">Detectar</option><option value="en">Inglés</option><option value="es">Español</option></select>
+                  <select id="translateTarget"><option value="es">Español</option><option value="en">Inglés</option></select>
+                  <button id="doTranslate" class="btn btn-primary">Traducir</button>
+                  <button id="ttsBtn" class="btn btn-ghost">Escuchar</button>
+                </div>
+              </div>
+
+              <div>
+                <div class="result" id="translateResult" aria-live="polite"></div>
+                <div style="margin-top:8px;display:flex;gap:8px">
+                  <button id="copyResult" class="btn btn-ghost">Copiar</button>
+                  <button id="openGoogle" class="btn btn-ghost">Abrir en Google</button>
+                </div>
+                <div style="margin-top:8px;color:var(--muted);font-size:13px">API (opcional): <input id="translatorApi" placeholder="https://libretranslate.com/translate" style="width:100%;margin-top:6px;padding:8px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text)" /></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card">
+            <h3>Currículum y CV</h3>
+            <p class="muted">Subí tu PDF para que el botón de descarga sirva el archivo. También podés generar una versión imprimible (layout limpio para imprimir o guardar como PDF desde el navegador).</p>
+            <input type="file" id="cvUpload" accept="application/pdf" />
+            <div style="margin-top:12px;display:flex;gap:8px">
+              <a id="cvDownload" class="btn btn-primary" href="#" download="CV-Emanuel-Ojeda.pdf">Descargar CV</a>
+              <button id="exportPDF" class="btn btn-ghost">Exportar (Imprimir)</button>
+            </div>
+            <hr style="margin:14px 0;border-color:var(--border)" />
+            <h4>Atajos</h4>
+            <ul style="color:var(--muted);font-size:14px">
+              <li><strong>Ctrl + K</strong> — Buscar proyectos</li>
+              <li><strong>T</strong> — Abrir traductor</li>
+              <li><strong>G</strong> — Ir a proyectos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head"><span class="hero-label">Carrera</span><h2>Experiencia Laboral</h2></div>
+        <div class="card">
+          <h3>Bacope S.A. <small class="muted">— Pasante de Desarrollo</small></h3>
+          <ul style="margin-top:12px;color:var(--muted)">
+            <li>Participación integral en proyectos: análisis, arquitectura, implementación.</li>
+            <li>Implementación de pipelines de test y despliegue, documentación técnica y capacitación a equipos.</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:18px" class="card">
+          <h4>Línea temporal</h4>
+          <div class="timeline">
+            <div class="timeline-item"><div class="dot"></div><div><strong>2023</strong> — Desarrollo de sistema de trazabilidad con sincronización en tiempo real.</div></div>
+            <div class="timeline-item"><div class="dot"></div><div><strong>2022</strong> — Implementación de panel administrativo y centralización de datos.</div></div>
+            <div class="timeline-item"><div class="dot"></div><div><strong>2021</strong> — Participación en línea de montaje; monitorización y alertas tempranas.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-head"><span class="hero-label">Contáctame</span><h2>Trabajemos Juntos</h2></div>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="card" aria-label="Formulario de contacto">
+            <div style="display:grid;gap:10px">
+              <input id="c_name" placeholder="Tu Nombre" required />
+              <input id="c_email" placeholder="Tu Email" type="email" required />
+              <textarea id="c_message" placeholder="Tu Mensaje" rows="6"></textarea>
+              <div style="display:flex;gap:8px"><button class="btn btn-primary" type="submit">Enviar</button><button class="btn btn-ghost" type="reset">Reset</button></div>
+              <div id="formStatus" style="color:var(--accent);display:none" role="status" aria-live="polite"></div>
+            </div>
+          </form>
+
+          <div class="card">
+            <h3>Información Rápida</h3>
+            <p class="muted">Email: <a href="mailto:ej@example.com">ej@example.com</a></p>
+            <p class="muted">Ubicación: Buenos Aires, Argentina</p>
+            <div style="display:flex;gap:10px;margin-top:12px">
+              <a href="#" class="btn btn-ghost">GitHub</a>
+              <a href="#" class="btn btn-ghost">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container"><p class="muted">© 2025 Emanuel Ojeda. Todos los derechos reservados.</p></div>
+  </footer>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card" role="document">
+      <button id="modalClose" class="btn btn-ghost" style="float:right">Cerrar</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div id="toast" style="position:fixed;right:20px;bottom:24px;z-index:1600"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
