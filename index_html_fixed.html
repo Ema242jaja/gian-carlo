@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emanuel Ojeda — Portfolio Completo y Pulido</title>
+  <meta name="description" content="Portfolio profesional de Emanuel Ojeda — Full Stack Developer. CV descargable, traductor, proyectos, timeline, certificaciones y utilidades integradas." />
+  <meta name="keywords" content="Emanuel Ojeda, Full Stack, Portfolio, JavaScript, Node.js, React, Vue, MySQL, MongoDB" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Emanuel Ojeda",
+    "jobTitle":"Full Stack Developer",
+    "description":"Full Stack Developer con experiencia en sistemas de gestión, trazabilidad y líneas de montaje.",
+    "url": "https://tu-site-ejemplo.com",
+    "address": { "@type":"PostalAddress","addressLocality":"Buenos Aires","addressCountry":"AR" }
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <div class="bg-shapes" aria-hidden="true">
+    <div class="shape s1"></div>
+    <div class="shape s2"></div>
+  </div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <div class="brand">
+        <div class="logo-mark" aria-hidden="true">EO</div>
+        <div class="brand-title">Emanuel Ojeda</div>
+      </div>
+
+      <ul class="nav" id="navList">
+        <li><a href="#home" data-en="Home" data-es="Inicio" class="active">Inicio</a></li>
+        <li><a href="#about" data-en="About" data-es="Sobre mí">Sobre mí</a></li>
+        <li><a href="#skills" data-en="Skills" data-es="Habilidades">Habilidades</a></li>
+        <li><a href="#projects" data-en="Projects" data-es="Proyectos">Proyectos</a></li>
+        <li><a href="#tools" data-en="Tools" data-es="Herramientas">Herramientas</a></li>
+        <li><a href="#contact" data-en="Contact" data-es="Contacto">Contacto</a></li>
+      </ul>
+
+      <div class="controls">
+        <button class="icon-btn" id="themeToggle" title="Toggle theme" aria-pressed="false">🌙</button>
+        <button class="icon-btn" id="menuToggle" aria-expanded="false" aria-controls="navList">☰</button>
+        <button class="icon-btn" id="langSwitch" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-card container">
+      <div class="hero-inner">
+        <span class="hero-label">Full Stack Developer • 3 Años de Experiencia</span>
+        <h1>Emanuel Ojeda</h1>
+        <h2>Transformando Ideas en Soluciones Digitales</h2>
+        <p class="lead">Me especializo en sistemas empresariales, trazabilidad industrial y control de líneas de montaje. Trabajo desde el diseño de base de datos hasta la experiencia de usuario, buscando siempre soluciones escalables, seguras y mantenibles.</p>
+
+        <div class="hero-cta">
+          <button class="btn btn-primary" id="contactBtn" data-en="Contact" data-es="Contactar">Contactar</button>
+          <button class="btn btn-ghost" id="downloadCV" data-en="Download CV" data-es="Descargar CV">Descargar CV</button>
+          <button class="btn btn-ghost" id="printCV" data-en="Print CV" data-es="Imprimir CV">Imprimir CV</button>
+        </div>
+
+        <p style="margin-top:18px;color:var(--muted)" data-en="Available for freelance projects and remote positions. Buenos Aires, Argentina." data-es="Disponible para proyectos freelance y posiciones remotas. Buenos Aires, Argentina.">Disponible para proyectos freelance y posiciones remotas. Buenos Aires, Argentina.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label" data-en="About Me" data-es="Sobre Mí">Sobre Mí</span>
+          <h2 data-en="Creating Digital Excellence" data-es="Creando Excelencia Digital">Creando Excelencia Digital</h2>
+          <p class="muted" data-en="Over 3 years building enterprise solutions. Below I summarize my approach, key experiences and what I offer." data-es="Más de 3 años construyendo soluciones empresariales. A continuación resumo mi enfoque, experiencias clave y lo que ofrezco.">Más de 3 años construyendo soluciones empresariales. A continuación resumo mi enfoque, experiencias clave y lo que ofrezco.</p>
+        </div>
+
+        <div class="card about-text">
+          <p><strong data-en="Approach:" data-es="Enfoque:">Enfoque:</strong> <span data-en="I understand the problem before writing a single line of code. My process includes requirements analysis, architecture design, iterations with deliverables and automated testing." data-es="comprendo el problema antes de escribir una sola línea de código. Mi proceso incluye análisis de requerimientos, diseño de arquitectura, iteraciones con entregables y pruebas automatizadas.">comprendo el problema antes de escribir una sola línea de código. Mi proceso incluye análisis de requerimientos, diseño de arquitectura, iteraciones con entregables y pruebas automatizadas.</span></p>
+          <p style="margin-top:8px"><strong data-en="What I offer:" data-es="Qué ofrezco:">Qué ofrezco:</strong> <span data-en="backend architecture, REST/GraphQL APIs, system integration, database optimization, admin panel design, support and mentoring." data-es="arquitectura backend, APIs REST/GraphQL, integración de sistemas, optimización de bases de datos, diseño de paneles administrativos, soporte y mentoring.">arquitectura backend, APIs REST/GraphQL, integración de sistemas, optimización de bases de datos, diseño de paneles administrativos, soporte y mentoring.</span></p>
+          <p style="margin-top:8px"><strong data-en="Common tools:" data-es="Herramientas habituales:">Herramientas habituales:</strong> Node.js, TypeScript, React, Vue, Python, MySQL, PostgreSQL, MongoDB, Docker, Git.</p>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px">
+          <div class="card">
+            <h4 data-en="Certifications" data-es="Certificaciones">Certificaciones</h4>
+            <ul style="color:var(--muted)">
+              <li data-en="Advanced Node.js Course — 2023" data-es="Curso avanzado de Node.js — 2023">Curso avanzado de Node.js — 2023</li>
+              <li data-en="MySQL Database Administration — 2022" data-es="Administración de bases de datos MySQL — 2022">Administración de bases de datos MySQL — 2022</li>
+              <li data-en="Testing Best Practices — 2024" data-es="Buenas prácticas de testing — 2024">Buenas prácticas de testing — 2024</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4 data-en="Testimonials" data-es="Testimonios">Testimonios</h4>
+            <div class="testimonials" id="testimonials">
+              <div class="testimonial">"Emanuel entregó la plataforma a tiempo y con excelente calidad. Gran comunicador." — Gerente Operaciones</div>
+              <div class="testimonial">"Resolutivo y proactivo, redujo el tiempo de producción un 23%." — Líder de Proyecto</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label" data-en="My Skills" data-es="Mis Habilidades">Mis Habilidades</span>
+          <h2 data-en="Technical and Soft Skills" data-es="Competencias Técnicas y Blandas">Competencias Técnicas y Blandas</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="card">
+            <h3 data-en="Technical Skills" data-es="Habilidades Técnicas">Habilidades Técnicas</h3>
+            <div style="margin-top:14px">
+              <div style="display:flex;justify-content:space-between;align-items:center"><strong>JavaScript / TypeScript</strong><small>90%</small></div>
+              <div class="skill-bar"><div class="skill-fill" data-fill="90"></div></div>
+
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px"><strong>Backend (Node / Python)</strong><small>88%</small></div>
+              <div class="skill-bar"><div class="skill-fill" data-fill="88"></div></div>
+
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px"><strong data-en="Databases" data-es="Bases de datos">Bases de datos</strong><small>85%</small></div>
+              <div class="skill-bar"><div class="skill-fill" data-fill="85"></div></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 data-en="Soft Skills" data-es="Habilidades Blandas">Habilidades Blandas</h3>
+            <div style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+              <span class="tag" data-en="Leadership" data-es="Liderazgo">Liderazgo</span>
+              <span class="tag" data-en="Communication" data-es="Comunicación">Comunicación</span>
+              <span class="tag" data-en="Problem Solving" data-es="Resolución de Problemas">Resolución de Problemas</span>
+              <span class="tag" data-en="Mentoring" data-es="Mentoría">Mentoría</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label" data-en="Portfolio" data-es="Portafolio">Portafolio</span>
+          <h2 data-en="Featured Projects (cards)" data-es="Proyectos Destacados (tarjetas)">Proyectos Destacados (tarjetas)</h2>
+          <p class="muted" data-en="Detailed summary of solutions I designed and developed. Cards don't use images — they're descriptive and focused on features and results." data-es="Resumen detallado de soluciones que diseñé y desarrollé. Las tarjetas no usan imágenes — son descriptivas y enfocadas en funcionalidades y resultados.">Resumen detallado de soluciones que diseñé y desarrollé. Las tarjetas no usan imágenes — son descriptivas y enfocadas en funcionalidades y resultados.</p>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-bottom:12px;align-items:center">
+          <input id="projectSearch" data-en="Search projects... (Ctrl+K)" data-es="Buscar proyectos... (Ctrl+K)" placeholder="Buscar proyectos... (Ctrl+K)" style="flex:1;padding:10px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,0.02);color:var(--text)" />
+          <select id="projectFilter" style="padding:8px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text)">
+            <option value="" data-en="Filter by technology" data-es="Filtrar por tecnología">Filtrar por tecnología</option>
+            <option value="react">React</option>
+            <option value="vue">Vue</option>
+            <option value="node">Node.js</option>
+            <option value="ts">TypeScript</option>
+          </select>
+          <button id="exportJson" class="btn btn-ghost" data-en="Export JSON" data-es="Exportar JSON">Exportar JSON</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+
+        <div style="margin-top:18px" class="card">
+          <h4 data-en="Impact Summary" data-es="Resumen de impacto">Resumen de impacto</h4>
+          <p class="muted" data-en="Some results: response time reduction up to 40%, data consolidation in a single dashboard, automation of manual processes and improvements in operations traceability." data-es="Algunos resultados: reducción de tiempos de respuesta hasta 40%, consolidación de datos en un único dashboard, automatización de procesos manuales y mejoras en la trazabilidad de operaciones.">Algunos resultados: reducción de tiempos de respuesta hasta 40%, consolidación de datos en un único dashboard, automatización de procesos manuales y mejoras en la trazabilidad de operaciones.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label" data-en="Tools" data-es="Herramientas">Herramientas</span>
+          <h2 data-en="Integrated Utilities" data-es="Utilidades Integradas">Utilidades Integradas</h2>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 420px;gap:18px">
+          <div class="card">
+            <h3 data-en="English ⇄ Spanish Translator" data-es="Traductor Inglés ⇄ Español">Traductor Inglés ⇄ Español</h3>
+            <p class="muted" data-en="Translate text with LibreTranslate (default). If the API doesn't respond, Google Translate opens. Includes text-to-speech and quick copy." data-es="Traduce texto con LibreTranslate (por defecto). Si la API no responde, se abre Google Translate. Incluye lectura en voz alta y copia rápida.">Traduce texto con LibreTranslate (por defecto). Si la API no responde, se abre Google Translate. Incluye lectura en voz alta y copia rápida.</p>
+
+            <div class="translator" style="margin-top:12px">
+              <div>
+                <textarea id="translateInput" data-en="Write or paste text here..." data-es="Escribe o pega texto aquí..." placeholder="Escribe o pega texto aquí..."></textarea>
+                <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
+                  <select id="translateSource">
+                    <option value="auto" data-en="Detect" data-es="Detectar">Detectar</option>
+                    <option value="en" data-en="English" data-es="Inglés">Inglés</option>
+                    <option value="es" data-en="Spanish" data-es="Español">Español</option>
+                  </select>
+                  <select id="translateTarget">
+                    <option value="es" data-en="Spanish" data-es="Español">Español</option>
+                    <option value="en" data-en="English" data-es="Inglés">Inglés</option>
+                  </select>
+                  <button id="doTranslate" class="btn btn-primary" data-en="Translate" data-es="Traducir">Traducir</button>
+                  <button id="ttsBtn" class="btn btn-ghost" data-en="Listen" data-es="Escuchar">Escuchar</button>
+                </div>
+              </div>
+
+              <div>
+                <div class="result" id="translateResult" aria-live="polite"></div>
+                <div style="margin-top:8px;display:flex;gap:8px">
+                  <button id="copyResult" class="btn btn-ghost" data-en="Copy" data-es="Copiar">Copiar</button>
+                  <button id="openGoogle" class="btn btn-ghost" data-en="Open in Google" data-es="Abrir en Google">Abrir en Google</button>
+                </div>
+                <div style="margin-top:8px;color:var(--muted);font-size:13px">
+                  <span data-en="API (optional):" data-es="API (opcional):">API (opcional):</span> 
+                  <input id="translatorApi" placeholder="https://libretranslate.com/translate" style="width:100%;margin-top:6px;padding:8px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text)" />
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card">
+            <h3 data-en="Resume and CV" data-es="Currículum y CV">Currículum y CV</h3>
+            <p class="muted" data-en="Upload your PDF so the download button serves the file. You can also generate a printable version (clean layout for printing or saving as PDF from browser)." data-es="Subí tu PDF para que el botón de descarga sirva el archivo. También podés generar una versión imprimible (layout limpio para imprimir o guardar como PDF desde el navegador).">Subí tu PDF para que el botón de descarga sirva el archivo. También podés generar una versión imprimible (layout limpio para imprimir o guardar como PDF desde el navegador).</p>
+            <input type="file" id="cvUpload" accept="application/pdf" />
+            <div style="margin-top:12px;display:flex;gap:8px">
+              <a id="cvDownload" class="btn btn-primary" href="#" download="CV-Emanuel-Ojeda.pdf" data-en="Download CV" data-es="Descargar CV">Descargar CV</a>
+              <button id="exportPDF" class="btn btn-ghost" data-en="Export (Print)" data-es="Exportar (Imprimir)">Exportar (Imprimir)</button>
+            </div>
+            <hr style="margin:14px 0;border-color:var(--border)" />
+            <h4 data-en="Shortcuts" data-es="Atajos">Atajos</h4>
+            <ul style="color:var(--muted);font-size:14px">
+              <li><strong>Ctrl + K</strong> — <span data-en="Search projects" data-es="Buscar proyectos">Buscar proyectos</span></li>
+              <li><strong>T</strong> — <span data-en="Open translator" data-es="Abrir traductor">Abrir traductor</span></li>
+              <li><strong>G</strong> — <span data-en="Go to projects" data-es="Ir a proyectos">Ir a proyectos</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label" data-en="Career" data-es="Carrera">Carrera</span>
+          <h2 data-en="Work Experience" data-es="Experiencia Laboral">Experiencia Laboral</h2>
+        </div>
+        <div class="card">
+          <h3>Bacope S.A. <small class="muted">— <span data-en="Development Intern" data-es="Pasante de Desarrollo">Pasante de Desarrollo</span></small></h3>
+          <ul style="margin-top:12px;color:var(--muted)" class="experience-item">
+            <li data-en="Comprehensive participation in projects: analysis, architecture, implementation." data-es="Participación integral en proyectos: análisis, arquitectura, implementación.">Participación integral en proyectos: análisis, arquitectura, implementación.</li>
+            <li data-en="Implementation of test and deployment pipelines, technical documentation and team training." data-es="Implementación de pipelines de test y despliegue, documentación técnica y capacitación a equipos.">Implementación de pipelines de test y despliegue, documentación técnica y capacitación a equipos.</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:18px" class="card">
+          <h4 data-en="Timeline" data-es="Línea temporal">Línea temporal</h4>
+          <div class="timeline">
+            <div class="timeline-item"><div class="dot"></div><div><strong>2023</strong> — <span data-en="Development of traceability system with real-time synchronization." data-es="Desarrollo de sistema de trazabilidad con sincronización en tiempo real.">Desarrollo de sistema de trazabilidad con sincronización en tiempo real.</span></div></div>
+            <div class="timeline-item"><div class="dot"></div><div><strong>2022</strong> — <span data-en="Implementation of admin panel and data centralization." data-es="Implementación de panel administrativo y centralización de datos.">Implementación de panel administrativo y centralización de datos.</span></div></div>
+            <div class="timeline-item"><div class="dot"></div><div><strong>2021</strong> — <span data-en="Participation in assembly line; monitoring and early alerts." data-es="Participación en línea de montaje; monitorización y alertas tempranas.">Participación en línea de montaje; monitorización y alertas tempranas.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="hero-label" data-en="Contact Me" data-es="Contáctame">Contáctame</span>
+          <h2 data-en="Let's Work Together" data-es="Trabajemos Juntos">Trabajemos Juntos</h2>
+        </div>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="card" aria-label="Formulario de contacto">
+            <div style="display:grid;gap:10px">
+              <input id="c_name" data-en="Your Name" data-es="Tu Nombre" placeholder="Tu Nombre" required />
+              <input id="c_email" data-en="Your Email" data-es="Tu Email" placeholder="Tu Email" type="email" required />
+              <textarea id="c_message" data-en="Your Message" data-es="Tu Mensaje" placeholder="Tu Mensaje" rows="6"></textarea>
+              <div style="display:flex;gap:8px">
+                <button class="btn btn-primary" type="submit" data-en="Send" data-es="Enviar">Enviar</button>
+                <button class="btn btn-ghost" type="reset">Reset</button>
+              </div>
+              <div id="formStatus" style="color:var(--accent);display:none" role="status" aria-live="polite"></div>
+            </div>
+          </form>
+
+          <div class="card">
+            <h3 data-en="Quick Info" data-es="Información Rápida">Información Rápida</h3>
+            <p class="muted">Email: <a href="mailto:ej@example.com">ojedaemanuel37@gmail.com</a></p>
+            <p class="muted" data-en="Location: Buenos Aires, Argentina" data-es="Ubicación: Buenos Aires, Argentina">Ubicación: Buenos Aires, Argentina</p>
+            <div style="display:flex;gap:10px;margin-top:12px">
+              <a href="#" class="btn btn-ghost">GitHub</a>
+              <a href="#" class="btn btn-ghost">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container"><p class="muted">© 2025 Emanuel Ojeda. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">Todos los derechos reservados.</span></p></div>
+  </footer>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card" role="document">
+      <button id="modalClose" class="btn btn-ghost" style="float:right" data-en="Close" data-es="Cerrar">Cerrar</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div id="toast" style="position:fixed;right:20px;bottom:24px;z-index:1600"></div>
+
+  <script src="script_fixed.js"></script>
+</body>
+</html>
